@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        String name;
+       int sub1, sub2, sub3,sub4, sub5;
+       int total_marks;
+       int Obtain_marks;
+       float percent;
+        System.out.print("Enter Your Name : ");
+        name=sc.nextLine();
+        System.out.print("Enter your Total Marks : ");
+        total_marks=sc.nextInt();
+        System.out.println("{***** Percentage (%age) Counter *****}");
+        System.out.print("Enter the Marks of subject 1 : ");
+        sub1=sc.nextInt();
+        System.out.print("Enter the Marks of subject 2 : ");
+        sub2=sc.nextInt();
+        System.out.print("Enter the Marks of subject 3 : ");
+        sub3=sc.nextInt();
+        System.out.print("Enter the Marks of subject 4 : ");
+        sub4=sc.nextInt();
+        System.out.print("Enter the Marks of subject 5 : ");
+        sub5=sc.nextInt();
+        System.out.print("Your obtain Marks out of Total :  ");
+        System.out.println(Obtain_marks=sub1+sub2+sub3+sub4+sub5);
+        System.out.print("Your Perscentage is : ");
+        System.out.println(percent=((Obtain_marks*100)/total_marks));
+    }
+}
